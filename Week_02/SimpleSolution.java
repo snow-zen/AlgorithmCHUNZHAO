@@ -27,7 +27,7 @@ public class SimpleSolution {
     }
 
     /**
-     * <a href="/problems/n-ary-tree-postorder-traversal/">590. N叉树的后序遍历</a>
+     * <a href="https://leetcode-cn.com/problems/n-ary-tree-postorder-traversal/">590. N叉树的后序遍历</a>
      */
     public List<Integer> postorder(Node root) {
         List<Integer> res = new ArrayList<>();
@@ -49,7 +49,7 @@ public class SimpleSolution {
     }
 
     /**
-     * <a href="/problems/n-ary-tree-preorder-traversal/">589. N叉树的前序遍历</a>
+     * <a href="https://leetcode-cn.com/problems/n-ary-tree-preorder-traversal/">589. N叉树的前序遍历</a>
      */
     public List<Integer> preorder(Node root) {
         List<Integer> res = new ArrayList<>();

@@ -10,7 +10,7 @@ import java.util.*;
 public class MiddleSolution {
 
     /**
-     * <a href="/problems/binary-tree-inorder-traversal/">94. 二叉树的中序遍历</a>
+     * <a href="https://leetcode-cn.com/problems/binary-tree-inorder-traversal/">94. 二叉树的中序遍历</a>
      */
     public List<Integer> inorderTraversal(TreeNode root) {
         List<Integer> res = new ArrayList<>();
@@ -29,7 +29,7 @@ public class MiddleSolution {
     }
 
     /**
-     * <a href="/problems/binary-tree-preorder-traversal/">144. 二叉树的前序遍历</a>
+     * <a href="https://leetcode-cn.com/problems/binary-tree-preorder-traversal/">144. 二叉树的前序遍历</a>
      */
     public List<Integer> preorderTraversal(TreeNode root) {
         List<Integer> res = new ArrayList<>();
@@ -48,7 +48,7 @@ public class MiddleSolution {
     }
 
     /**
-     * <a href="/problems/n-ary-tree-level-order-traversal/">429. N 叉树的层序遍历</a>
+     * <a href="https://leetcode-cn.com/problems/n-ary-tree-level-order-traversal/">429. N 叉树的层序遍历</a>
      */
     public List<List<Integer>> levelOrder(Node root) {
         List<List<Integer>> res = new ArrayList<>();
@@ -75,7 +75,7 @@ public class MiddleSolution {
     }
 
     /**
-     * <a href="/problems/chou-shu-lcof/">剑指 Offer 49. 丑数</a>
+     * <a href="https://leetcode-cn.com/problems/chou-shu-lcof/">剑指 Offer 49. 丑数</a>
      *
      * @param n 第几个丑数
      * @return 返回第几个丑数对应的值
@@ -109,7 +109,7 @@ public class MiddleSolution {
     }
 
     /**
-     * <a href="/problems/top-k-frequent-elements/">347. 前 K 个高频元素</a>
+     * <a href="https://leetcode-cn.com/problems/top-k-frequent-elements/">347. 前 K 个高频元素</a>
      */
     public int[] topKFrequent(int[] nums, int k) {
         if (k <= 0) {
@@ -138,7 +138,7 @@ public class MiddleSolution {
     }
 
     /**
-     * <a href="/problems/lowest-common-ancestor-of-a-binary-tree/">236. 二叉树的最近公共祖先</a>
+     * <a href="https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-tree/">236. 二叉树的最近公共祖先</a>
      */
     public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
         // 终止条件：达到树底或找到对应元素
@@ -173,7 +173,7 @@ public class MiddleSolution {
     private Map<Integer, Integer> indexMap;
 
     /**
-     * <a href="/problems/construct-binary-tree-from-preorder-and-inorder-traversal/">105. 从前序与中序遍历序列构造二叉树</a>
+     * <a href="https://leetcode-cn.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/">105. 从前序与中序遍历序列构造二叉树</a>
      */
     public TreeNode buildTree(int[] preorder, int[] inorder) {
         int n = preorder.length;
@@ -231,7 +231,7 @@ public class MiddleSolution {
     }
 
     /**
-     * <a href="/problems/combinations/">77. 组合</a>
+     * <a href="https://leetcode-cn.com/problems/combinations/">77. 组合</a>
      */
     public List<List<Integer>> combine(int n, int k) {
         List<List<Integer>> res = new ArrayList<>();
@@ -262,7 +262,7 @@ public class MiddleSolution {
     }
 
     /**
-     * <a href="/problems/permutations/">46. 全排列</a>
+     * <a href="https://leetcode-cn.com/problems/permutations/">46. 全排列</a>
      */
     public List<List<Integer>> permute(int[] nums) {
         List<List<Integer>> res = new ArrayList<>();
@@ -295,7 +295,7 @@ public class MiddleSolution {
     private boolean[] visits;
 
     /**
-     * <a href="/problems/permutations-ii/">47. 全排列 II</a>
+     * <a href="https://leetcode-cn.com/problems/permutations-ii/">47. 全排列 II</a>
      */
     public List<List<Integer>> permuteUnique(int[] nums) {
         List<List<Integer>> res = new ArrayList<>();
