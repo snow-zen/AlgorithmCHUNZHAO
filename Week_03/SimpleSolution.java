@@ -12,7 +12,7 @@ import java.util.Set;
 public class SimpleSolution {
 
     /**
-     * <a href="/problems/majority-element/">169. 多数元素</a>
+     * <a href="https://leetcode-cn.com/problems/majority-element/">169. 多数元素</a>
      * <p>
      * 采用分治思想，时间复杂度为O(nlogn)，空间复杂度为O(logn)
      */
@@ -52,7 +52,7 @@ public class SimpleSolution {
     }
 
     /**
-     * <a href="/problems/lemonade-change/">860. 柠檬水找零</a>
+     * <a href="https://leetcode-cn.com/problems/lemonade-change/">860. 柠檬水找零</a>
      * <p>
      * 贪心算法求解，时间复杂度O(n)，空间复杂度O(1)
      */
@@ -83,7 +83,7 @@ public class SimpleSolution {
     }
 
     /**
-     * <a href="/problems/best-time-to-buy-and-sell-stock-ii/">122. 买卖股票的最佳时机 II</a>
+     * <a href="https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-ii/">122. 买卖股票的最佳时机 II</a>
      * <p>
      * 贪心算法求解，时间复杂度O(n)，空间复杂度O(1)
      */
@@ -105,7 +105,7 @@ public class SimpleSolution {
     }
 
     /**
-     * <a href="/problems/assign-cookies/">455. 分发饼干</a>
+     * <a href="https://leetcode-cn.com/problems/assign-cookies/">455. 分发饼干</a>
      * <p>
      * 时间复杂度O(n)，空间复杂度O(1)
      */
@@ -123,7 +123,7 @@ public class SimpleSolution {
     }
 
     /**
-     * <a href="/problems/walking-robot-simulation/">874. 模拟行走机器人</a>
+     * <a href="https://leetcode-cn.com/problems/walking-robot-simulation/">874. 模拟行走机器人</a>
      */
     public int robotSim(int[] commands, int[][] obstacles) {
         Set<String> set = new HashSet<>();

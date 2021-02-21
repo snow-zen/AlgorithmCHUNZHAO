@@ -10,7 +10,7 @@ import java.util.*;
 public class DiffSolution {
 
     /**
-     * <a href="/problems/n-queens/">51. N 皇后</a>
+     * <a href="https://leetcode-cn.com/problems/n-queens/">51. N 皇后</a>
      */
     public List<List<String>> solveNQueens(int n) {
         List<List<String>> res = new ArrayList<>();
@@ -76,7 +76,7 @@ public class DiffSolution {
     private List<Integer>[] edges; // 图的边
 
     /**
-     * <a href="/problems/word-ladder-ii/">126. 单词接龙 II</a>
+     * <a href="https://leetcode-cn.com/problems/word-ladder-ii/">126. 单词接龙 II</a>
      */
     public List<List<String>> findLadders(String beginWord, String endWord, List<String> wordList) {
         int id = 0;
@@ -166,7 +166,7 @@ public class DiffSolution {
     }
 
     /**
-     * <a href="/problems/jump-game-ii/">45. 跳跃游戏 II</a>
+     * <a href="https://leetcode-cn.com/problems/jump-game-ii/">45. 跳跃游戏 II</a>
      */
     public int jump(int[] nums) {
         int length = nums.length;

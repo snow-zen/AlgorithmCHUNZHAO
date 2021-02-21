@@ -10,7 +10,7 @@ import java.util.*;
 public class MiddleSolution {
 
     /**
-     * <a href="/problems/powx-n/">50. Pow(x, n)</a>
+     * <a href="https://leetcode-cn.com/problems/powx-n/">50. Pow(x, n)</a>
      * <p>
      * 递归求解，时间复杂度O(logn)，空间复杂度O(logn)
      */
@@ -27,7 +27,7 @@ public class MiddleSolution {
     }
 
     /**
-     * <a href="/problems/subsets/">78. 子集</a>
+     * <a href="https://leetcode-cn.com/problems/subsets/">78. 子集</a>
      * <p>
      * 回溯算法求解，时间复杂度O(n * 2^n)，空间复杂度O(n)
      */
@@ -50,7 +50,7 @@ public class MiddleSolution {
     }
 
     /**
-     * <a href="/problems/letter-combinations-of-a-phone-number/">17. 电话号码的字母组合</a>
+     * <a href="https://leetcode-cn.com/problems/letter-combinations-of-a-phone-number/">17. 电话号码的字母组合</a>
      * <p>
      * 回溯求解
      */
@@ -91,7 +91,7 @@ public class MiddleSolution {
     }
 
     /**
-     * <a href="/problems/word-ladder/">127. 单词接龙</a>
+     * <a href="https://leetcode-cn.com/problems/word-ladder/">127. 单词接龙</a>
      */
     public int ladderLength(String beginWord, String endWord, List<String> wordList) {
         // 缓存
@@ -153,7 +153,7 @@ public class MiddleSolution {
     }
 
     /**
-     * <a href="/problems/number-of-islands/">200. 岛屿数量</a>
+     * <a href="https://leetcode-cn.com/problems/number-of-islands/">200. 岛屿数量</a>
      */
     public int numIslands(char[][] grid) {
         int count = 0;
@@ -187,7 +187,7 @@ public class MiddleSolution {
     int[] dirY = {1, 0, -1, 0, 1, -1, 1, -1};
 
     /**
-     * <a href="/problems/minesweeper/">529. 扫雷游戏</a>
+     * <a href="https://leetcode-cn.com/problems/minesweeper/">529. 扫雷游戏</a>
      */
     public char[][] updateBoard(char[][] board, int[] click) {
         int x = click[0], y = click[1];
@@ -242,7 +242,7 @@ public class MiddleSolution {
     }
 
     /**
-     * <a href="/problems/jump-game/">55. 跳跃游戏</a>
+     * <a href="https://leetcode-cn.com/problems/jump-game/">55. 跳跃游戏</a>
      */
     public boolean canJump(int[] nums) {
         int n = nums.length;
@@ -259,7 +259,7 @@ public class MiddleSolution {
     }
 
     /**
-     * <a href="/problems/search-in-rotated-sorted-array/">33. 搜索旋转排序数组</a>
+     * <a href="https://leetcode-cn.com/problems/search-in-rotated-sorted-array/">33. 搜索旋转排序数组</a>
      */
     public int search(int[] nums, int target) {
         int n = nums.length;
@@ -293,7 +293,7 @@ public class MiddleSolution {
     }
 
     /**
-     * <a href="/problems/search-a-2d-matrix/">74. 搜索二维矩阵</a>
+     * <a href="https://leetcode-cn.com/problems/search-a-2d-matrix/">74. 搜索二维矩阵</a>
      */
     public boolean searchMatrix(int[][] matrix, int target) {
         int xLen = matrix.length;
@@ -315,7 +315,7 @@ public class MiddleSolution {
     }
 
     /**
-     * <a href="/problems/find-minimum-in-rotated-sorted-array/">153. 寻找旋转排序数组中的最小值</a>
+     * <a href="https://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array/">153. 寻找旋转排序数组中的最小值</a>
      */
     public int findMin(int[] nums) {
         return findMinInternal(nums, 0, nums.length - 1);
